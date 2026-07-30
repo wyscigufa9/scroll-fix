@@ -44,29 +44,17 @@ automatically after signing in.
 ## Building from source
 
 Install Visual Studio 2022 with the **Desktop development with C++** workload,
-then run:
-
-```powershell
-.\build.ps1
-```
-
-The release executable will be created at:
-
-```text
-build\Release\ScrollFix.exe
-```
-
-To produce a debug build:
-
-```powershell
-.\build.ps1 -Configuration Debug
-```
-
-The project can also be built with CMake 3.20 or newer:
+and CMake 3.20 or newer. From the repository root, run:
 
 ```powershell
 cmake -S . -B build-cmake
 cmake --build build-cmake --config Release
+```
+
+With the Visual Studio generator, the executable is created at:
+
+```text
+build-cmake\Release\ScrollFix.exe
 ```
 
 ## Configuration
