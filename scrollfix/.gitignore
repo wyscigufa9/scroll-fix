@@ -1,0 +1,23 @@
+# Build output
+/build/
+/build-*/
+/out/
+
+# Visual Studio and CMake
+/.vs/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/*.sln
+/*.vcxproj*
+
+# Compiler output
+*.obj
+*.pdb
+*.ilk
+*.res
+
+# Local runtime files
+config.ini
+*.csv
+*.log
